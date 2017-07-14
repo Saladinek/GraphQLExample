@@ -1,0 +1,91 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/rest/api/rooms"
+    }
+  },
+  "_embedded": {
+    "rooms": [
+      {
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/rest/api/rooms/1"
+          }
+        },
+        "capacity": 30,
+        "id": 1,
+        "roomnumber": "FFP 104"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/rest/api/rooms/2"
+          }
+        },
+        "capacity": 30,
+        "id": 2,
+        "roomnumber": "FFP 202"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/rest/api/rooms/3"
+          }
+        },
+        "capacity": 15,
+        "id": 3,
+        "roomnumber": "FFP 219"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/rest/api/rooms/4"
+          }
+        },
+        "capacity": 15,
+        "id": 4,
+        "roomnumber": "FFP 301"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/rest/api/rooms/5"
+          }
+        },
+        "capacity": 30,
+        "id": 5,
+        "roomnumber": "FFP 302"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/rest/api/rooms/6"
+          }
+        },
+        "capacity": 25,
+        "id": 6,
+        "roomnumber": "FFP 403"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/rest/api/rooms/7"
+          }
+        },
+        "capacity": 10,
+        "id": 7,
+        "roomnumber": "BS 204"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/rest/api/rooms/8"
+          }
+        },
+        "capacity": 50,
+        "id": 8,
+        "roomnumber": "BS Schulungsraum"
+      }
+    ]
+  }
+}

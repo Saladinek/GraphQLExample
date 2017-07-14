@@ -1,0 +1,19 @@
+<div class="edit-component">
+  <h1>Kontakt Bearbeiten</h1>
+  <form>
+    <div>
+      <label>Vorname:</label>
+      <input type="text" id="firstName" [(ngModel)]="firstName" name="firstName" required>
+    </div>
+    <div>
+      <label>Nachname:</label>
+      <input type="text" id="lastName"[(ngModel)]="lastName" name="lastName" required>
+    </div>
+    <div>
+      <label>Email:</label>
+      <input type="text" id="email" [(ngModel)]="email" name="email" required>
+    </div>
+    <button (click)="submit()">Speichern</button>
+    <button (click)="returnToOverview()">Zurück</button>
+  </form>
+</div>

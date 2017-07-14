@@ -1,0 +1,8 @@
+.idea/*
+
+GraphQLClient/.idea
+GraphQLServer/.idea
+
+GraphQLClient/node_modules
+GraphQLServer/node_modules
+

@@ -1,0 +1,36 @@
+<section class="container__grid">
+  <table class="grid">
+    <thead class="__header">
+    <th class="headline">Vorname</th>
+    <th class="headline">Name</th>
+    <th class="headline">E-Mail</th>
+    <th><button (click)="openEdit()">New</button></th>
+    <th><button (click)="buttonClick()">Get</button></th>
+    </thead>
+    <tbody>
+    <tr *ngFor="let author of authors"  name="authors">
+      <td (click)="getPosts(author?.id)" class="__content">{{author?.firstName}} </td>
+      <td class="__content">{{author?.lastName}}</td>
+      <td class="__content">{{author?.email}}</td>
+      <button (click)="openEdit(author?.id)">Edit</button>
+      <button (click)="deleteAuthor(author?.id)">Delete</button>
+    </tr>
+    </tbody>
+  </table>
+</section>
+  <section class="container__grid">
+    <table class="grid">
+      <thead class="__header">
+      <th class="headline">From {{authorName}}</th>
+      <th class="headline">Titel</th>
+      <th class="headline">Content</th>
+      </thead>
+      <tbody>
+      <tr *ngFor="let post of posts" name="posts">
+        <td class="__content">{{post?.author.firstName}}</td>
+        <td class="__content">{{post?.title}}</td>
+        <td class="__content">{{post?.content}}</td>
+      </tr>
+      </tbody>
+    </table>
+</section>
